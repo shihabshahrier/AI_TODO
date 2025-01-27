@@ -1,0 +1,36 @@
+{
+  "name": "ai_todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "drizzle-kit generate",
+    "migrate": "drizzle-kit migrate",
+    "studio": "drizzle-kit studio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shihabshahrier/AI_TODO.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/shihabshahrier/AI_TODO/issues"
+  },
+  "homepage": "https://github.com/shihabshahrier/AI_TODO#readme",
+  "devDependencies": {
+    "@types/node": "^22.10.10"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "dotenv": "^16.4.7",
+    "drizzle-kit": "^0.30.2",
+    "drizzle-orm": "^0.38.4",
+    "openai": "^4.80.1",
+    "pg": "^8.13.1",
+    "readline-sync": "^1.4.10"
+  }
+}
